@@ -1,32 +1,37 @@
 ---
-title: Dobrodošli na Etičko hakiranje
+title: Kibernetička sigurnost
 description: Nova vještina pod vodstvom udruge X.FER
 pagefind: false
 template: splash
+banner:
+  content: "Dobro došli na stranice Kibernetičke sigurnosti. Ovdje možete pronaći sve informacije o vještini, lekcije i materijale za učenje!"
 hero:
   tagline: Nova vještina pod vodstvom udruge X.FER.
   actions:
-    - text: Započni
+    - text: Prijava na vještinu
+      link: /guides/example/
+      icon: external
+      variant: primary
+    - text: Započni!
       link: /lekcije/uvod/o_materijalima
       icon: rocket
-      variant: primary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Prvi koraci
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Informacije o predmetu" icon="document">
+		Pročitajte o vještini na stranicama [Kibernetičke sigurnosti](/lekcije/uvod/o_materijalima).
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Krenite učiti" icon="open-book">
+		Pogledajte [lekcije](/lekcije/uvod/o_materijalima) i krenite učiti.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Pridružite se discord serveru" icon="discord">
+		Pridružite se [discord serveru](https://discord.gg/5Q3uX7Q) i pitajte za pomoć.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Izmjenite sadržaj" icon="github">
+		Predložite novi sadržaj na [GitHub-u](/lekcije/uvod/o_materijalima).
 	</Card>
 </CardGrid>
